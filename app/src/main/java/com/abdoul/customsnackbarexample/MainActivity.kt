@@ -37,12 +37,12 @@ class MainActivity : AppCompatActivity() {
 
         //set Action
         customSnackBar?.action(actionLabel = "UNDO", listener = actionClickListener)
+
         //add Action CallBack
         customSnackBar?.addCallback(object : CustomSnackBar.Callback() {
             override fun onShown(sb: CustomSnackBar) {
                 showToast("Custom snackBar showing")
             }
-
             override fun onDismissed(transientBottomBar: CustomSnackBar, event: Int) {
                 when (event) {
                     DISMISS_EVENT_ACTION -> {
