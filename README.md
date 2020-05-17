@@ -13,6 +13,7 @@ first add jitpack to your gradle (not app module), under allprojects
 	}
 
 then add the following dependency to your app module gradle dependencies
+
 	dependencies {
 	        implementation 'com.github.Abdoul02:CustomSnackBar:0.1.0'
 	}
