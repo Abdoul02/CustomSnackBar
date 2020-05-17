@@ -21,3 +21,7 @@ then add the following dependency to your app module gradle dependencies
 see image below for usage in your code
 
 ![](images/how_to.png)
+
+Here are some examples
+<img src ="images/fingerprint.png" height= "100"/>
+<img src ="images/mango.png" height= "100"/>
